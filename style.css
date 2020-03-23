@@ -1,10 +1,14 @@
 body {
   margin: 0;
+  line-height: 1.4;
+  font-family: "Source Sans Pro", sans-serif
 }
 
 .header {
   background: grey;
   padding: 20px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .header img {
@@ -14,19 +18,39 @@ body {
 
 .header-nav {
   margin: 20px 0;
+  text-align: inherit
 }
 
 .header-nav a {
-  margin: 0 10px;
+  padding: 0 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+text-decoration: underline;
 }
 
 .header-title {
   margin-top: 0;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .main {
   background: lightgrey;
   padding: 20px;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.main p {
+  text-align: justify;
+}
+
+.main p::first-letter {
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .footer {
