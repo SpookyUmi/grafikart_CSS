@@ -10,6 +10,8 @@ body {
   color: #ffffff;
   height: auto;
   z-index: 2;
+  background: center top / cover url("img/banniere.jpg");
+  height: 150px;
 }
 
 .header-nav {
@@ -24,10 +26,20 @@ body {
   width: 20%;
   color: inherit;
   text-decoration: none;
+  background-color: rgba(255,255,255,0.2);
 }
 
 .header-nav a:hover {
-text-decoration: underline;
+  background-color: rgba(255,255,255,0.4);
+  /* text-decoration: underline; */
+}
+
+.homepage {
+  border-radius: 5px 0 0 5px;
+}
+
+.link_ext {
+  border-radius: 0 5px 5px 0;
 }
 
 .header-title {
