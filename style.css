@@ -42,11 +42,23 @@ img {
   margin-left: 10px;
   width: 35px;
   transition: transform cubic-bezier(.66,-0.5,.28,1.4) .5s;
+  animation: slide 1s infinite;
 }
 
 img:hover {
   transform: rotate(40deg) scale(1.5);
+}
 
+@keyframes slide {
+  0% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
 }
 
 .homepage {
